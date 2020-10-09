@@ -30,7 +30,7 @@ twitter_username: CDSP_ScPo
 github_username: CDSP-SCPO
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
