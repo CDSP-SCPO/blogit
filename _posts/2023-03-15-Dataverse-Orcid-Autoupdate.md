@@ -22,7 +22,7 @@ The research graph describes relations between several type of resources; to mak
 ## 2. Prerequisites
 
 - a Dataverse repository using Persistent Identifiers from DataCite called DOIs (Digital Object Identifiers). This feature is available since [Dataverse version 4.13 (dated 2016)](https://blog.datacite.org/dataverse-is-now-minting-dois-with-datacite/).
-- your Open Researcher and Contributor identifier (ORCID iD). Regsitration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID identifier comes as a set of characters for instance `0000-0003-4074-2B76`.
+- your Open Researcher and Contributor identifier (ORCID iD). Registration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID identifier comes as a set of characters for instance `0000-0003-4074-2B76`.
 
 ## 3. Setup
 
@@ -34,7 +34,7 @@ The research graph describes relations between several type of resources; to mak
 *This operation involves Globus (https://globus.org/), a non-profit DataCite partner.
 You may want to check also [ORCID Client Terms of Use](https://info.orcid.org/public-client-terms-of-service/) and this statement about [personal data transfer by ORCID from EU to the US](https://info.orcid.org/our-principles-policies/faq-orcid-and-ecj-schrems-ii-decision/).*
 
-To proceed, sign in with your ORCID account to the [Datacite profile service](https://profiles.datacite.org/). To learn more about [DataCite profiles](https://support.datacite.org/docs/datacite-profiles-user-documentation).
+To proceed, sign in with your ORCID account to the [Datacite profile service](https://profiles.datacite.org/). More info about [DataCite profiles here](https://support.datacite.org/docs/datacite-profiles-user-documentation).
 
 Select `Settings` menu option. Create an ORCID token and enable auto-update to get a profile similar to this one:
 
@@ -59,19 +59,22 @@ While editing metadata for a dataset, Type in an `Autor name"`, select ORCID as 
 
 ### Notifications
 
-Whenever a dataset with your ORCID is published, you should receive an email (and / or an ORCID internal notification) to inform you that DataCite has updated your ORCID record.
+Whenever a dataset with your ORCID is published, you should receive notifications to inform you that DataCite has updated your ORCID record.
+Email notification:
 
 ![ORCID auto-update email notification]({{ site.baseurl }}/assets/orcid/image7.png)
 
+ORCID internal notification:
+
 ![ORCID internal notification]({{ site.baseurl }}/assets/orcid/image11.png)
 
-### Dataset publication on your ORCID record
+### Editing your ORCID record
 
-Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings [here](https://support.orcid.org/hc/en-us/articles/360006897614).
+Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings is available [here](https://support.orcid.org/hc/en-us/articles/360006897614).
 
 ![DataCite as a source of your ORCID works list, edition mode]({{ site.baseurl }}/assets/orcid/image9.png)
 
-### Check your "Work" section on your ORCID public record
+### Checking your ORCID public record
 
 ![DataCite as a source of your ORCID works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
 
@@ -83,7 +86,7 @@ You can check on your [ORCID account](https://orcid.org/trusted-parties), the li
 
 You have control over the permissions anytime by selecting `revoke access` to one or more `third party` as in step 1.
 
-If you want to revoke all persmissions at once, you can additionally delete the ORCID token.
+You can additionally delete the `ORCID token`.
 
 
 
