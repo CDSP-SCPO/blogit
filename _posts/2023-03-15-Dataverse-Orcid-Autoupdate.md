@@ -44,9 +44,11 @@ Select `Settings` menu option. Create an ORCID token and enable auto-update to g
 ### Check your updated ORCID account settings
 
 You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your trusted third parties.
-You should see now a new Globus item:
+You should see now a Globus and a DataCite item, as shown below:
 
-![list of trusted third parties from your ORCID account]({{ site.baseurl }}/assets/orcid/image5.png )
+![list of trusted third parties from your ORCID account: DataCite]({{ site.baseurl }}/assets/orcid/image5.png )
+
+![list of trusted third parties from your ORCID account: Globus]({{ site.baseurl }}/assets/orcid/image12.png )
 
 ### Step 2: Provide metadata to Dataverse
 
