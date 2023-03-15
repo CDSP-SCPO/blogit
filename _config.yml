@@ -23,8 +23,8 @@ email: itcdsp-scpolst@sciencespo.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Misc from the CDSP IT team.
 baseurl: "/blogit" # the subpath of your site, e.g. /blog
-url: "https://cdsp.sciences-po.fr" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: CDSP_ScPo
+url: "https://cdsp-scpo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: CDSP_ScPo
 github_username: CDSP-SCPO
 
 # Build settings
