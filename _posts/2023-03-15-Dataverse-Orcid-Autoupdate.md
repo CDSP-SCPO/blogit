@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to automate updates from Dataverse publications to your contributor or researcher online public record"
+title:  "How to automate updates from Dataverse publications to your contributor / researcher online CV"
+abstract: "This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using DOIs as dataset PIDs"
 ---
 
-# How to automate updates from Dataverse publications to your contributor or researcher online public record
 ## 1. Rationale
-This tutorial demonstrates how we can now leverage persistent identifiers (PIDs) and associated features to **capture metadata workflows** and **automatically update the research graph**.
+This tutorial demonstrates how you can leverage persistent identifiers (PIDs) and associated features to **capture metadata workflows** and **automatically update the research graph**.
 
 See [Fenner, M., & Aryani, A. (2019). Introducing the PID Graph (https://doi.org/10.5438/JWVF-8A66)](https://doi.org/10.5438/jwvf-8a66).
 
@@ -17,36 +17,40 @@ The research graph describes relations between several type of resources; to mak
 - PIDs for software
 - PIDs for publications
 
-```console
-This tutorial will help you set an ORCID record (or public CV) auto-update triggered from a dataset publication on a Dataverse repository using DOIs as dataset PIDs.
-```
+**This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using DOIs as dataset PIDs.**
 
 ## 2. Prerequisites
 
-- a Dataverse repository using Persistent Identifiers from Datacite called DOI (Digital Object Identifier). This feature is available since [2016 and Dataverse version 4.13](https://blog.datacite.org/dataverse-is-now-minting-dois-with-datacite/).
-- an Open Researcher and Contributor identifier (ORCID iD). Regsitration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID iD is provided as a set of characters for instance `0000-0003-4074-2976`.
+- a Dataverse repository using Persistent Identifiers from DataCite called DOIs (Digital Object Identifiers). This feature is available since [Dataverse version 4.13 (dated 2016)](https://blog.datacite.org/dataverse-is-now-minting-dois-with-datacite/).
+- an Open Researcher and Contributor identifier (ORCID iD). Regsitration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID identifier is provided as a set of characters for instance `0000-0003-4074-2B76`.
 
 ## 3. Setup
 
 We want to have an contributor or researcher ORCID profile updated every time a dataset to which they contributed is published on Dataverse.
 
-### Step 1: Enable Auto-update of an ORCID profile
+### Step 1: Enable Auto-update of your ORCID record
 
-#### Activate an ORCID profile using Globus authentication
+### Activate your DataCite profile and set permissions
 
+*This operation involves Globus (https://globus.org/), a non-profit DataCite partner.
+You may want to check also [ORCID Client Terms of Use](https://info.orcid.org/public-client-terms-of-service/) and this statement about [personal data transfer by ORCID from EU to the US](https://info.orcid.org/our-principles-policies/faq-orcid-and-ecj-schrems-ii-decision/).*
 
-* This operation involves Globus (https://globus.org/), a non-profit Datacite partner.
-At this stage you may want to check also [ORCID Client Terms of Use](https://info.orcid.org/public-client-terms-of-service/) and this statement about [personal data transfer by ORCID from EU to the US](https://info.orcid.org/our-principles-policies/faq-orcid-and-ecj-schrems-ii-decision/).
-*
+To proceed, sign in with your ORCID account to the [Datacite profile service](https://profiles.datacite.org/). To learn more about [DataCite profiles](https://support.datacite.org/docs/datacite-profiles-user-documentation).
 
-Sign in with your ORCID account to the [Datacite profile service](https://support.datacite.org/docs/datacite-profiles-user-documentation) using Globus authentication at https://profiles.datacite.org/.
-Select `Settings` for your account. Create an ORCID token and enable auto-update.
+Select `Settings` menu option. Create an ORCID token and enable auto-update to get a profile similar to this one:
 
 ![Create an ORCID token and enable auto-update]({{ site.baseurl }}/assets/orcid/image4.png)
 
+### Check your updated ORCID account settings
+
+You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your trusted third parties.
+You should see now a new Globus item:
+
+![list of trusted third parties from your ORCID account]({{ site.baseurl }}/assets/orcid/image5.png )
+
 ### Step 2: Provide metadata to Dataverse
 
-While editing metadata for a dataset, Type in an "Autor name", select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
+While editing metadata for a dataset, Type in an `Autor name"`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
 
 ![providing ORCID iDs as metadata for a dataset in Dataverse form]({{ site.baseurl }}/assets/orcid/image6.png)
 
@@ -54,7 +58,7 @@ While editing metadata for a dataset, Type in an "Autor name", select ORCID as `
 
 ### Notifications
 
-Whenever a dataset with your ORCID is published, you should receive an email (and / or an ORCID internal notification) to inform you that Datacite has updated your ORCID record.
+Whenever a dataset with your ORCID is published, you should receive an email (and / or an ORCID internal notification) to inform you that DataCite has updated your ORCID record.
 
 ![ORCID auto-update email notification]({{ site.baseurl }}/assets/orcid/image7.png)
 
@@ -64,11 +68,11 @@ Whenever a dataset with your ORCID is published, you should receive an email (an
 
 Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings [here](https://support.orcid.org/hc/en-us/articles/360006897614).
 
-![Datacite as a source of your works list]({{ site.baseurl }}/assets/orcid/image9.png)
+![DataCite as a source of your works list, edition mode]({{ site.baseurl }}/assets/orcid/image9.png)
 
 ### Check your "Work" section on your ORCID public record
 
-![Datacite as a source of your works list]({{ site.baseurl }}/assets/orcid/image10.png)
+![DataCite as a source of your works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
 
 ## 5. Troubleshooting
 
