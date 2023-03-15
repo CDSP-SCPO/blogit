@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "How to automate updates from Dataverse publications to your contributor or researcher online public record"
+---
+
 # How to automate updates from Dataverse publications to your contributor or researcher online public record
 ## 1. Rationale
 This tutorial demonstrates how we can now leverage persistent identifiers (PIDs) and associated features to **capture metadata workflows** and **automatically update the research graph**.
@@ -37,13 +42,13 @@ At this stage you may want to check also [ORCID Client Terms of Use](https://inf
 Sign in with your ORCID account to the [Datacite profile service](https://support.datacite.org/docs/datacite-profiles-user-documentation) using Globus authentication at https://profiles.datacite.org/.
 Select `Settings` for your account. Create an ORCID token and enable auto-update.
 
-![Create an ORCID token and enable auto-update](/image/image4.png)
+![Create an ORCID token and enable auto-update](/assets/orcid/image4.png)
 
 ### Step 2: Provide metadata to Dataverse
 
 While editing metadata for a dataset, Type in an "Autor name", select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
 
-![providing ORCID iDs as metadata for a dataset in Dataverse form](/image/image6.png)
+![providing ORCID iDs as metadata for a dataset in Dataverse form](/assets/orcid/image6.png)
 
 ## 4. Auto-update in action
 
@@ -51,19 +56,19 @@ While editing metadata for a dataset, Type in an "Autor name", select ORCID as `
 
 Whenever a dataset with your ORCID is published, you should receive an email (and / or an ORCID internal notification) to inform you that Datacite has updated your ORCID record.
 
-![ORCID auto-update email notification](/image/image7.png)
+![ORCID auto-update email notification](/assets/orcid/image7.png)
 
-![ORCID internal notification](/image/image11.png)
+![ORCID internal notification](/assets/orcid/image11.png)
 
 ### Dataset publication on your ORCID record (CV)
 
 Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings [here](https://support.orcid.org/hc/en-us/articles/360006897614).
 
-![Datacite as a source of your works list](/image/image9.png)
+![Datacite as a source of your works list](/assets/orcid/image9.png)
 
 ### Check your "Work" section on your ORCID public record
 
-![Datacite as a source of your works list](/image/image10.png)
+![Datacite as a source of your works list](/assets/orcid/image10.png)
 
 ## 5. Troubleshooting
 
@@ -73,7 +78,7 @@ You can check on your [ORCID account](https://orcid.org/trusted-parties), the li
 
 You have control over the permissions anytime by selecting `revoke access` to one or more `third party` as shown below :
 
-![Create an ORCID token and enable auto-update](/image/image5.png "How to revoke a third party from your ORCID account")
+![Create an ORCID token and enable auto-update](/assets/orcid/image5.png "How to revoke a third party from your ORCID account")
 
 If you want to revoke all persmissions at once, you can additionally delete the ORCID token.
 
