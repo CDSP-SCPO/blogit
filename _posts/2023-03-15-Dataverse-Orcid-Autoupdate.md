@@ -51,7 +51,7 @@ You should see now a Globus and a DataCite item, as shown below:
 
 ### Step 2: Publish metadata from Dataverse
 
-On Dataverse, provide author metadata for a dataset, type in an `Author name"`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
+On Dataverse, provide author metadata for a dataset, type in an `Author name`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
 
 ![providing ORCID iDs as metadata for a dataset in Dataverse form]({{ site.baseurl }}/assets/orcid/image6.png)
 
@@ -81,13 +81,13 @@ Depending on your policy, you can now set the visibility level of this new recor
 
 ![DataCite as a source of your ORCID works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
 
-## 5. Troubleshooting
+## 5. De-activating auto-update
 
-You can revert this process by suspending auto-update or revoking persmissions, with immediate effect.
+You can revert this process by suspending auto-update with immediate effect.
 
 Check on your [ORCID account](https://orcid.org/trusted-parties), the list of your registered trusted third parties. This is -to put it simply- the list of services you connected to using your ORCID.
 
-Controm permissions anytime by selecting `revoke access` to one or more `third party` as in step 1.
+Revoke permissions anytime by selecting `revoke access` for Datacite and Globus `third party` and as in step1.
 
 You can additionally delete the `ORCID token`.
 
