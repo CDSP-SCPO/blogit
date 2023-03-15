@@ -29,9 +29,10 @@ We want to have an contributor or researcher ORCID profile updated every time a 
 
 #### Activate an ORCID profile using Globus authentication
 
-```console
-Disclaimer: This operation involves Globus (https://globus.org/), a non-profit Datacite partner.
-```
+
+* This operation involves Globus (https://globus.org/), a non-profit Datacite partner.
+At this stage you may want to check also [ORCID Client Terms of Use](https://info.orcid.org/public-client-terms-of-service/) and this statement about [personal data transfer by ORCID from EU to the US](https://info.orcid.org/our-principles-policies/faq-orcid-and-ecj-schrems-ii-decision/).
+*
 
 Sign in with your ORCID account to the [Datacite profile service](https://support.datacite.org/docs/datacite-profiles-user-documentation) using Globus authentication at https://profiles.datacite.org/.
 Select `Settings` for your account. Create an ORCID token and enable auto-update.
