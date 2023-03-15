@@ -27,7 +27,7 @@ The research graph describes relations between several type of resources; to mak
 ## 3. Setup
 
 
-### Step 1: Enable Auto-update of your ORCID record
+### Step 1: Enable auto-update of your ORCID record
 
 #### Activate your DataCite profile and set permissions
 
@@ -49,22 +49,25 @@ You should see now a Globus and a DataCite item, as shown below:
 
 ![list of trusted third parties from your ORCID account: Globus]({{ site.baseurl }}/assets/orcid/image12.png )
 
-### Step 2: Provide metadata to Dataverse
+### Step 2: Publish metadata from Dataverse
 
-While editing metadata for a dataset, Type in an `Autor name"`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
+On Dataverse, provide author metadata for a dataset, type in an `Author name"`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
 
 ![providing ORCID iDs as metadata for a dataset in Dataverse form]({{ site.baseurl }}/assets/orcid/image6.png)
+
+The dataset must be **published** for the auto-update to take place.
 
 ## 4. Auto-update in action
 
 ### Notifications
 
-Whenever a dataset with your ORCID is published, you should receive notifications to inform you that DataCite has updated your ORCID record.
-Email notification:
+Whenever a dataset including your ORCID as an author metadata is published, you should receive notifications to inform you that DataCite has updated your ORCID record.
+
+An email notification looks like:
 
 ![ORCID auto-update email notification]({{ site.baseurl }}/assets/orcid/image7.png)
 
-ORCID internal notification:
+An internal ORCID notification looks like:
 
 ![ORCID internal notification]({{ site.baseurl }}/assets/orcid/image11.png)
 
@@ -80,11 +83,11 @@ Depending on your policy, you can now set the visibility level of this new recor
 
 ## 5. Troubleshooting
 
-You can always revert this process by suspending auto-update or revoking persmissions
+You can revert this process by suspending auto-update or revoking persmissions, with immediate effect.
 
-You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your registered trusted third parties. This is -to put it simply- the list of services you connected to using your ORCID.
+Check on your [ORCID account](https://orcid.org/trusted-parties), the list of your registered trusted third parties. This is -to put it simply- the list of services you connected to using your ORCID.
 
-You have control over the permissions anytime by selecting `revoke access` to one or more `third party` as in step 1.
+Controm permissions anytime by selecting `revoke access` to one or more `third party` as in step 1.
 
 You can additionally delete the `ORCID token`.
 
