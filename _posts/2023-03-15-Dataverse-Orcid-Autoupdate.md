@@ -17,20 +17,19 @@ The research graph describes relations between several type of resources; to mak
 - PIDs for software
 - PIDs for publications
 
-**This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using DOIs as dataset PIDs.**
+**We want to have a contributor or researcher ORCID profile automatically updated every time a dataset to which they contributed is published on Dataverse. This tutorial will help you set your ORCID record auto-update triggered by a dataset publication on a Dataverse repository (using DOIs as dataset PIDs).**
 
 ## 2. Prerequisites
 
 - a Dataverse repository using Persistent Identifiers from DataCite called DOIs (Digital Object Identifiers). This feature is available since [Dataverse version 4.13 (dated 2016)](https://blog.datacite.org/dataverse-is-now-minting-dois-with-datacite/).
-- an Open Researcher and Contributor identifier (ORCID iD). Regsitration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID identifier is provided as a set of characters for instance `0000-0003-4074-2B76`.
+- your Open Researcher and Contributor identifier (ORCID iD). Regsitration is needed to get an [ORCID](https://info.orcid.org/documentation/features/orcid-registry/) iD and maintain and control an ORCID record. An ORCID identifier comes as a set of characters for instance `0000-0003-4074-2B76`.
 
 ## 3. Setup
 
-We want to have an contributor or researcher ORCID profile updated every time a dataset to which they contributed is published on Dataverse.
 
 ### Step 1: Enable Auto-update of your ORCID record
 
-### Activate your DataCite profile and set permissions
+#### Activate your DataCite profile and set permissions
 
 *This operation involves Globus (https://globus.org/), a non-profit DataCite partner.
 You may want to check also [ORCID Client Terms of Use](https://info.orcid.org/public-client-terms-of-service/) and this statement about [personal data transfer by ORCID from EU to the US](https://info.orcid.org/our-principles-policies/faq-orcid-and-ecj-schrems-ii-decision/).*
@@ -41,7 +40,7 @@ Select `Settings` menu option. Create an ORCID token and enable auto-update to g
 
 ![Create an ORCID token and enable auto-update]({{ site.baseurl }}/assets/orcid/image4.png)
 
-### Check your updated ORCID account settings
+#### Check your updated ORCID account settings
 
 You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your trusted third parties.
 You should see now a Globus and a DataCite item, as shown below:
@@ -66,25 +65,23 @@ Whenever a dataset with your ORCID is published, you should receive an email (an
 
 ![ORCID internal notification]({{ site.baseurl }}/assets/orcid/image11.png)
 
-### Dataset publication on your ORCID record (CV)
+### Dataset publication on your ORCID record
 
 Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings [here](https://support.orcid.org/hc/en-us/articles/360006897614).
 
-![DataCite as a source of your works list, edition mode]({{ site.baseurl }}/assets/orcid/image9.png)
+![DataCite as a source of your ORCID works list, edition mode]({{ site.baseurl }}/assets/orcid/image9.png)
 
 ### Check your "Work" section on your ORCID public record
 
-![DataCite as a source of your works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
+![DataCite as a source of your ORCID works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
 
 ## 5. Troubleshooting
 
 You can always revert this process by suspending auto-update or revoking persmissions
 
-You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your trusted third parties. This is -to put it simply- the list of services you connected to using your ORCID.
+You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your registered trusted third parties. This is -to put it simply- the list of services you connected to using your ORCID.
 
-You have control over the permissions anytime by selecting `revoke access` to one or more `third party` as shown below :
-
-![Create an ORCID token and enable auto-update]({{ site.baseurl }}/assets/orcid/image5.png "How to revoke a third party from your ORCID account")
+You have control over the permissions anytime by selecting `revoke access` to one or more `third party` as in step 1.
 
 If you want to revoke all persmissions at once, you can additionally delete the ORCID token.
 
