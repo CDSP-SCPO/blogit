@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to set up a push to web or web-first survey with Qualtrics"
-summary: ""
+summary: "How to use common questionnnaire features to painlessly invite sample members using postal letters to answer online questionnaires"
 date: 2023-03-22
 ---
 
