@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "How to automate updates from Dataverse publications to your ORCID contributor and researcher online CV"
-abstract: "This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using DOIs as dataset PIDs"
+summary: "This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using DOIs as dataset PIDs"
+date: 2023-03-15
 ---
 
 ## 1. Rationale
+
 This tutorial demonstrates how you can leverage persistent identifiers (PIDs) and associated features to **capture metadata workflows** and **automatically update the research graph**.
 
 See [Fenner, M., & Aryani, A. (2019). Introducing the PID Graph (https://doi.org/10.5438/JWVF-8A66)](https://doi.org/10.5438/jwvf-8a66).
@@ -38,22 +40,22 @@ To proceed, sign in with your ORCID account to the [Datacite profile service](ht
 
 Select `Settings` menu option. Create an ORCID token and enable auto-update to get a profile similar to this one:
 
-![Create an ORCID token and enable auto-update]({{ site.baseurl }}/assets/orcid/image4.png)
+![Create an ORCID token and enable auto-update](image4.png)
 
 #### Check your updated ORCID account settings
 
 You can check on your [ORCID account](https://orcid.org/trusted-parties), the list of your trusted third parties.
 You should see now a Globus and a DataCite item, as shown below:
 
-![list of trusted third parties from your ORCID account: DataCite]({{ site.baseurl }}/assets/orcid/image5.png )
+![list of trusted third parties from your ORCID account: DataCite](image5.png )
 
-![list of trusted third parties from your ORCID account: Globus]({{ site.baseurl }}/assets/orcid/image12.png )
+![list of trusted third parties from your ORCID account: Globus](image12.png )
 
 ### Step 2: Publish metadata from Dataverse
 
 On Dataverse, provide author metadata for a dataset, type in an `Author name`, select ORCID as `identifier scheme` and provide a valid ORCID iD as `identifier`. 
 
-![providing ORCID iDs as metadata for a dataset in Dataverse form]({{ site.baseurl }}/assets/orcid/image6.png)
+![providing ORCID iDs as metadata for a dataset in Dataverse form](image6.png)
 
 The dataset must be **published** for the auto-update to take place.
 
@@ -65,21 +67,21 @@ Whenever a dataset including your ORCID as an author metadata is published, you 
 
 An email notification looks like:
 
-![ORCID auto-update email notification]({{ site.baseurl }}/assets/orcid/image7.png)
+![ORCID auto-update email notification](image7.png)
 
 An internal ORCID notification looks like:
 
-![ORCID internal notification]({{ site.baseurl }}/assets/orcid/image11.png)
+![ORCID internal notification](image11.png)
 
 ### Editing your ORCID record
 
 Depending on your policy, you can now set the visibility level of this new record to public. More info on (default) visibility settings is available [here](https://support.orcid.org/hc/en-us/articles/360006897614).
 
-![DataCite as a source of your ORCID works list, edition mode]({{ site.baseurl }}/assets/orcid/image9.png)
+![DataCite as a source of your ORCID works list, edition mode](image9.png)
 
 ### Checking your ORCID public record
 
-![DataCite as a source of your ORCID works list, public CV]({{ site.baseurl }}/assets/orcid/image10.png)
+![DataCite as a source of your ORCID works list, public CV](image10.png)
 
 ## 5. De-activating auto-update
 

@@ -1,0 +1,47 @@
+baseURL: /blogit
+languageCode: en-us
+title: BlogIT
+paginate: 5
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+
+params:
+  env: production
+  author: CDSP IT Team
+  description: Blogging attempt from the IT team at the Center for Socio-Political Data (SciencesPo, CNRS).
+  assets:
+    favicon: favicon.svg
+  
+  homeInfoParams:
+    Title: We build, we write... sometimes
+    Content: Blogging attempt from the IT team at the [Center for Socio-Political Data](https://cdsp.sciences-po.fr) (SciencesPo, CNRS).
+  socialIcons:
+    - name: Github
+      url: https://github.com/CDSP-SCPO
+    - name: CDSP's website
+      url: https://cdsp.sciences-po.fr
+    - name: RSS
+      url: index.xml
+
+  ShowFullTextinRSS: true
+  ShowRssButtonInSectionTermList: true
+  ShowShareButtons: true
+  ShareButtons: ["twitter", "linkedin"]
+  ShowReadingTime: true
+  ShowToc: true
+  # TocOpen: true
+  # ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  # ShowWordCount: true
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON

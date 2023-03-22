@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "How to set up a push to web or web-first survey with Qualtrics"
-abstract: ""
+summary: ""
+date: 2023-03-22
 ---
 
 ## 1. Push to web survey, moving from snail mail to web surveys
@@ -16,8 +17,6 @@ According to [Dillman (Don. A. Dillman. (2017). The promise and challenge of pus
 
 During [SSHOC](https://doi.org/10.3030/823782) and [ESS-SUSTAIN-2](https://doi.org/10.3030/871063) both European Commission funded projects, we have collaborated with the European Research Infrastructure [ESS](https://www.europeansocialsurvey.org/about/). We have designed a push to web data collection instrument using Qualtrics, detailed [here](https://cdsp-scpo.github.io/wpss-doc/use/push-to-web/#our-proof-of-concept).
 
-![Link to a sub section of the WPSS wiki including a push to web How To]({{ site.baseurl }}/assets/pushtoweb/LetterBox.jpg)
+![Link to a sub section of the WPSS wiki including a push to web How To](letterbox.jpg)
 
 *Photo by Mikaela Wiedenhoff on Unsplash.*
-
-  
