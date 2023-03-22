@@ -16,7 +16,7 @@ According to [Dillman (Don. A. Dillman. (2017). The promise and challenge of pus
 
 During [SSHOC](https://doi.org/10.3030/823782) and [ESS-SUSTAIN-2](https://doi.org/10.3030/871063) both European Commission funded projects, we have collaborated with the European Research Infrastructure [ESS](https://www.europeansocialsurvey.org/about/). We have designed a push to web data collection instrument using Qualtrics, detailed [here](https://cdsp-scpo.github.io/wpss-doc/use/push-to-web/#our-proof-of-concept).
 
-![Link to a sub section of the WPSS wiki including a push to web How To]({{ site.baseurl }}/assets/pushtoweb/mikaela-wiedenhoff-AwmCuTXL97Q-unsplash.jpg)]
+![Link to a sub section of the WPSS wiki including a push to web How To]({{ site.baseurl }}/assets/pushtoweb/LetterBox.jpg)]
 
 *Photo by Mikaela Wiedenhoff on Unsplash.*
 
