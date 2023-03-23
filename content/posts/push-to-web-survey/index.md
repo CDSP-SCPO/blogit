@@ -13,7 +13,7 @@ According to [Dillman (Don. A. Dillman. (2017). The promise and challenge of pus
 
 >"Also known as “web-first” and “web-push” surveys. A push-to-web survey is a quantitative data collection method in which offline contact modes are used to encourage sample members to go online and complete a web questionnaire. This method is typically used when sampling frames do not include email addresses for all members of the study population".
 
-## 2. A step by step How To set up a [push to web survey with Qualtrics](https://cdsp-scpo.github.io/wpss-doc/use/push-to-web/#our-proof-of-concept)
+## 2. A step by step How To of a [push to web survey with Qualtrics](https://cdsp-scpo.github.io/wpss-doc/use/push-to-web/#our-proof-of-concept)
 
 During [SSHOC](https://doi.org/10.3030/823782) and [ESS-SUSTAIN-2](https://doi.org/10.3030/871063) both European Commission funded projects, we have collaborated with the European Research Infrastructure [ESS](https://www.europeansocialsurvey.org/about/). We have designed a push to web data collection instrument using Qualtrics, detailed [here](https://cdsp-scpo.github.io/wpss-doc/use/push-to-web/#our-proof-of-concept).
 
