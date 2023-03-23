@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to automate updates from Dataverse publications to ORCID contributor and researcher online CV"
+title:  "How to automate updates from Dataverse to ORCID contributor and researcher online CV"
 summary: "This tutorial will help you set an ORCID record (or public record) auto-update triggered by a dataset publication on a Dataverse repository using Datacite DOIs as dataset PIDs."
 date: 2023-03-15
 ---
